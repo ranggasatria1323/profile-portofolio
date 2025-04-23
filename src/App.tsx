@@ -7,6 +7,11 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "./components/ui/dialog";
+import bioattack from "./../public/bioAttack.gif"
+import bumper from "./../public/Bumper Acara.gif"
+import profile from "./../public/Dark Modern Elegant Singer New Song YouTube Thumbnail.png"
+import gendhis from "./../public/Gendhis.gif"
+import web from "./../public/CompanyProfile.gif"
 
 function App() {
   return (
@@ -17,7 +22,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-48 h-48 rounded-full overflow-hidden">
               <img
-                src="https://i.imgur.com/u9HsPpK.png"
+                src={profile}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -35,13 +40,13 @@ function App() {
                 CSS, and JavaScript
               </p>
               <div className="flex gap-4">
-                <a href="#" className="p-2 text-gray-600 hover:text-gray-900">
+                <a target="blank" href="https://github.com/ranggasatria1323" className="p-2 text-gray-600 hover:text-gray-900">
                   <Github />
                 </a>
-                <a href="#" className="p-2 text-gray-600 hover:text-gray-900">
+                <a target="blank" href="https://www.linkedin.com/in/rangga-satria-maulana/" className="p-2 text-gray-600 hover:text-gray-900">
                   <Linkedin />
                 </a>
-                <a href="#" className="p-2 text-gray-600 hover:text-gray-900">
+                <a target="blank" href="https://drive.google.com/drive/folders/14qTnOeY7LZ8oLeoXOC5dRL2-S3RLV7_f" className="p-2 text-gray-600 hover:text-gray-900">
                   <Mail />
                 </a>
               </div>
@@ -156,7 +161,7 @@ function App() {
                 <div className="group cursor-pointer">
                   <div className="aspect-video rounded-lg overflow-hidden mb-4 bg-gray-200">
                     <img
-                      src="https://i.imgur.com/8IPJQjo.jpg"
+                      src={gendhis}
                       alt="3D Character Animation"
                       className="w-full h-full object-cover transition-transform group-hover:scale-105"
                     />
@@ -243,7 +248,7 @@ function App() {
                 <div className="group cursor-pointer">
                   <div className="aspect-video rounded-lg overflow-hidden mb-4 bg-gray-200">
                     <img
-                      src="https://i.imgur.com/DMfvrxc.gif"
+                      src={bumper}
                       alt="Motion Graphics Showreel"
                       className="w-full h-full object-cover transition-transform group-hover:scale-105"
                     />
@@ -331,7 +336,7 @@ function App() {
                 <div className="group cursor-pointer">
                   <div className="aspect-video rounded-lg overflow-hidden mb-4 bg-gray-200">
                     <img
-                      src="https://i.imgur.com/jaf4dpa.gif"
+                      src={web}
                       alt="Web Development Project"
                       className="w-full h-full object-cover transition-transform group-hover:scale-105"
                     />
@@ -385,7 +390,7 @@ function App() {
                 <div className="group cursor-pointer">
                   <div className="aspect-video rounded-lg overflow-hidden mb-4 bg-gray-200">
                     <img
-                      src="https://i.imgur.com/sF5cGkv.gif"
+                      src={bioattack}
                       alt="Architectural Visualization"
                       className="w-full h-full object-cover transition-transform group-hover:scale-105"
                     />
