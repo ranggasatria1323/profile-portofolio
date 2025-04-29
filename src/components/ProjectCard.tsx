@@ -44,7 +44,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="bg-card rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+          className="bg-card rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer bg-gray-50"
         >
           <div className="relative aspect-[4/3] overflow-hidden">
             <img 

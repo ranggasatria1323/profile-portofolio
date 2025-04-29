@@ -17,7 +17,7 @@ const FeaturedWork: React.FC = () => {
     [
       {
         name: "3D Portofolio",
-        icon: <Box className="w-6 h-6" />,
+        icon: <Box className="md:w-6 md:h-6 w-3 h-3" />,
         color: "from-purple-500 to-indigo-500",
       },
       {
@@ -50,7 +50,7 @@ const FeaturedWork: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center mb-16 space-y-4 md:space-y-0 md:space-x-8">
+        <div className="flex md:h-auto md:w-auto justify-center md:mb-16 p-4 space-y-0 space-x-1 md:space-y-0 md:space-x-8">
           {categories.map((category) => (
             <WorkCategory
               key={category.name}

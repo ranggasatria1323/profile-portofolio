@@ -22,25 +22,6 @@ const projects = {
   "3D Portofolio": [
     {
       id: "3d-1",
-      title: "3D Animation Gendhis",
-      description: "Watch my latest 3D animation work.",
-      imageUrl: gendhis,
-      details:
-        '"Gendhis" successfully attracted the attention of audiences and critics, receiving positive reviews for its animation quality and engaging story. The film won several awards at international horror film festivals and set a new standard for 3D animated horror films. Viewers praised the stunning visual effects, captivating storyline, and iconic characters.',
-      youtube: "https://www.youtube.com/embed/HVyx2bQVH9Q",
-      situation:
-        "The production team faced challenges in creating a 3D animated horror film that could evoke a scary and thrilling atmosphere. The main challenge was balancing frightening visual elements with a strong, deep storyline.",
-      task: 'Our mission was to create a 3D animated film titled "Gendhis" that was not only scary but also had an engaging storyline and strong characters, making it well-received by a wide audience and setting a new standard in the horror animation genre.',
-      actions: [
-        "Story Development: Created a script that combined local cultural elements with rich horror mythology, ensuring the story had surprising plot twists and complex characters.",
-        "Visual Design: Used the latest 3D animation technology to create realistic and detailed visual effects, from character design to background settings that supported the horror atmosphere.",
-        "Sound Effects and Music: Integrated scary sound effects and background music that supported the eerie atmosphere, collaborating with experienced music composers and sound design teams.",
-        "Animation and Rendering: The animation process was carried out in detail to ensure each scene looked lively and frightening. We used high-quality rendering for the final output.",
-      ],
-      tags: ["Horror", "3D Animation", "Character Design"],
-    },
-    {
-      id: "3d-2",
       title: "Rumah Kayu",
       description:
         "A rustic wooden structure elevated on stilts, featuring a spacious balcony and porch. Its steep roof and natural wooden textures emphasize practicality and tradition.",
@@ -57,6 +38,25 @@ const projects = {
         "Lighting & Rendering: Applied natural lighting effects to enhance realism and rendered the final model for presentation.",
       ],
       tags: ["Architecture", "3D Modeling", "Building"],
+    },
+    {
+      id: "3d-2",
+      title: "3D Animation Gendhis",
+      description: "Watch my latest 3D animation work.",
+      imageUrl: gendhis,
+      details:
+        '"Gendhis" successfully attracted the attention of audiences and critics, receiving positive reviews for its animation quality and engaging story. The film won several awards at international horror film festivals and set a new standard for 3D animated horror films. Viewers praised the stunning visual effects, captivating storyline, and iconic characters.',
+      youtube: "https://www.youtube.com/embed/HVyx2bQVH9Q",
+      situation:
+        "The production team faced challenges in creating a 3D animated horror film that could evoke a scary and thrilling atmosphere. The main challenge was balancing frightening visual elements with a strong, deep storyline.",
+      task: 'Our mission was to create a 3D animated film titled "Gendhis" that was not only scary but also had an engaging storyline and strong characters, making it well-received by a wide audience and setting a new standard in the horror animation genre.',
+      actions: [
+        "Story Development: Created a script that combined local cultural elements with rich horror mythology, ensuring the story had surprising plot twists and complex characters.",
+        "Visual Design: Used the latest 3D animation technology to create realistic and detailed visual effects, from character design to background settings that supported the horror atmosphere.",
+        "Sound Effects and Music: Integrated scary sound effects and background music that supported the eerie atmosphere, collaborating with experienced music composers and sound design teams.",
+        "Animation and Rendering: The animation process was carried out in detail to ensure each scene looked lively and frightening. We used high-quality rendering for the final output.",
+      ],
+      tags: ["Horror", "3D Animation", "Character Design"],
     },
     {
       id: "3d-3",
