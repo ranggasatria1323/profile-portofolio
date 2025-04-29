@@ -86,23 +86,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-5xl max-h-[90vh] overflow-y-auto">
-        <div className="relative aspect-video  rounded-t-lg">
+        <div className="relative aspect-video rounded-t-lg">
           {project.youtube ? (
             <iframe
               width="100%"
               height="100%"
               src={project.youtube}
               title={project.title}
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="absolute inset-0"
+              className="absolute inset-0 mt-8"
             />
           ) : (
             <img 
               src={project.imageUrl} 
               alt={project.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover mt-8"
             />
           )}
         </div>
