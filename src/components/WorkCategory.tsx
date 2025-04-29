@@ -44,7 +44,7 @@ const WorkCategory: React.FC<WorkCategoryProps> = ({
           >
             {icon}
           </div>
-          <h3 className="font-semibold md:text-lg max-md:text-center text-base">
+          <h3 className="font-semibold md:text-lg max-md:text-center text-lg">
             {title}
           </h3>
         </div>
