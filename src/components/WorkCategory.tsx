@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 interface WorkCategoryProps {
   title: string;
@@ -22,34 +22,34 @@ const WorkCategory: React.FC<WorkCategoryProps> = ({
       whileTap={{ scale: 0.98 }}
       onClick={onClick}
       className={`relative cursor-pointer flex flex-col transition-all duration-300 rounded-md md:rounded-2xl overflow-hidden ${
-        isActive 
-          ? 'shadow-lg' 
-          : 'shadow hover:shadow-md'
+        isActive ? "shadow-lg" : "shadow hover:shadow-md"
       }`}
     >
-      <div 
+      <div
         className={`
           md:h-full md:w-[300px] md:p-8 bg-white
-          ${isActive 
-            ? `bg-gradient-to-br ${colorClass} text-white` 
-            : 'text-gray-800 hover:text-gray-900'
+          ${
+            isActive
+              ? `bg-gradient-to-br ${colorClass} text-white`
+              : "text-gray-800 hover:text-gray-900"
           }
         `}
       >
         <div className="flex md:flex-col md:items-center md:space-y-4">
-          <div className={`hidden md:block
+          <div
+            className={`hidden md:block
             md:p-3 rounded-full
-            ${isActive 
-              ? 'bg-white/20' 
-              : 'bg-gray-100'
-            }
-          `}>
+            ${isActive ? "bg-white/20" : "bg-gray-100"}
+          `}
+          >
             {icon}
           </div>
-          <h3 className="font-semibold md:text-lg max-md:text-center text-[16px]">{title}</h3>
+          <h3 className="font-semibold md:text-lg max-md:text-center text-xl">
+            {title}
+          </h3>
         </div>
       </div>
-      
+
       {/* {isActive && (
         <motion.div 
           layoutId="activeIndicator"
