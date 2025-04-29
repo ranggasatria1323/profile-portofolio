@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import WorkCategory from "./WorkCategory";
 import ProjectGallery from "./ProjectGalery";
-import { Box, Code2, Image, Palette, Video } from "lucide-react";
+import { Box, Code2, Image, Video } from "lucide-react";
 
-type Category = "3D Portofolio" | "Motion Graphic" | "Web Development" | "Another Arts";
+type Category =
+  | "3D Portofolio"
+  | "Motion Graphic"
+  | "Web Development"
+  | "Another Arts";
 
 const FeaturedWork: React.FC = () => {
   const [activeCategory, setActiveCategory] =
