@@ -50,7 +50,7 @@ const FeaturedWork: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex justify-center md:h-full md:w-full w-full gap-1 md:gap-7 md:mb-16 mb-6">
+        <div className="flex justify-center md:h-full md:w-full w-full gap-1 md:gap-5 md:mb-16 mb-6">
           {categories.map((category) => (
             <WorkCategory
               key={category.name}

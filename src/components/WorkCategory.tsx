@@ -27,7 +27,7 @@ const WorkCategory: React.FC<WorkCategoryProps> = ({
     >
       <div
         className={`
-          w-full h-8 md:w-[300px] md:h-full md:p-8 bg-white flex md:block items-center
+           w-full h-auto py-2 md:w-[230px] xl:w-[300px] md:h-full md:p-8 bg-white flex md:block items-center
           ${
             isActive
               ? `bg-gradient-to-br ${colorClass} text-white`
