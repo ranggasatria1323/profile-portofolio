@@ -27,7 +27,7 @@ const WorkCategory: React.FC<WorkCategoryProps> = ({
     >
       <div
         className={`
-          w-full md:w-[300px] md:h-full md:p-8 bg-white
+          w-full h-8 md:w-[300px] md:h-full md:p-8 bg-white flex md:block items-center
           ${
             isActive
               ? `bg-gradient-to-br ${colorClass} text-white`
@@ -44,7 +44,7 @@ const WorkCategory: React.FC<WorkCategoryProps> = ({
           >
             {icon}
           </div>
-          <h3 className="font-semibold text-[12px] md:text-lg text-center break-words leading-[0.85rem]">
+          <h3 className="flex font-semibold text-sm md:text-lg text-center break-words leading-[0.85rem]">
             {title}
           </h3>
         </div>
