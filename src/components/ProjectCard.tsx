@@ -101,7 +101,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             <img 
               src={project.imageUrl} 
               alt={project.title}
-              className="w-full h-full object-cover mt-8"
+              className="absolute inset-0 object-cover mt-8"
             />
           )}
         </div>
