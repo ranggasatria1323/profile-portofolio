@@ -2,6 +2,7 @@ import { Github, Linkedin, Mail, Code, Film, Box } from "lucide-react";
 import profile from "./../public/Dark Modern Elegant Singer New Song YouTube Thumbnail.png"
 import FeaturedWork from "./components/FeaturedWork";
 import { useEffect, useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
 
@@ -14,8 +15,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="py-20 px-4 bg-gray-800 md:px-8 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <Navbar />
+      <section className="py-20 px-4 bg-gray-800 md:px-8 overflow-hidden ">
+      <div className="max-w-6xl mx-auto md:mt-[79px]">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div 
             className={`w-48 h-48 rounded-full overflow-hidden transform transition-all duration-1000 ease-out relative
@@ -86,7 +88,7 @@ function App() {
     </section>
 
       {/* About Me*/}
-      <section className="py-20 bg-white px-4 md:px-8">
+      <section id="about" className="py-20 bg-white px-4 md:px-8">
         <h1 className="text-3xl font-bold text-gray-800 mb-12 text-center">
           About Me
         </h1>
@@ -138,7 +140,7 @@ function App() {
         </div>
       </section>
       {/* Skills Section */}
-      <section className="py-20 bg-white px-4 md:px-8">
+      <section id="skills" className="py-20 bg-white px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">
             Skills & Expertise
